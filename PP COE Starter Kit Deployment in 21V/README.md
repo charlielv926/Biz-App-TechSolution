@@ -56,6 +56,7 @@
 - 基于后台流程的周期性触发，一般经历6-12小时后，就可以看到当前租户中的CoE管理数据了。如下图：
   
   ![抓取的租户数据](./Images/Envir_data.png)
+  ![COE PBI](./Images/COE_PBI.png)
 
 ## 大功告成，Cheers😃😃😃
 
