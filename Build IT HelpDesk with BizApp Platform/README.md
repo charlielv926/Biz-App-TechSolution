@@ -23,10 +23,15 @@
 
 ## 开始部署
 
-🥰本次实验的详细操作手册为放置在[LabManual目录](https://github.com/charlielv926/Biz-App-TechSolution/tree/main/Build%20IT%20HelpDesk%20with%20BizApp%20Platform/LabManual)中PDF文件,可以下载至本地进行查阅。
+**🥰本次实验的详细操作手册为放置在[LabManual目录](https://github.com/charlielv926/Biz-App-TechSolution/tree/main/Build%20IT%20HelpDesk%20with%20BizApp%20Platform/LabManual)中PDF文件,可以下载至本地进行查阅。**
+
+本次演示的主要流程场景如下：
+![OCS](./Images/OCS.png)
 
 ## 部署完成
 
 部署完成后，整体业务演示场景如下方的视频所示：
 
-[![](./Images/Solution%20Pipeline.png)](./Images/Test-ITHelpdesk-Bot.mp4)
+- [基于网页端的PVA聊天测试](https://blobstoragecharlie.blob.core.chinacloudapi.cn/image/Test-ITHelpdesk-Bot.mp4)
+- [基于Teams+PVA+人工的聊天测试](https://blobstoragecharlie.blob.core.chinacloudapi.cn/image/Test-ITHelpDeskOCS.mp4)
+  
