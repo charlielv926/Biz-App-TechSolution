@@ -19,9 +19,14 @@
 - 申请Office E3/E5 试用
 - 申请Power Virtual Agent 试用
 - 下载并安装Bot Framework Composer
-  
 **✨以上申请内容，请参考实验手册中的指示**
 
 ## 开始部署
 
-🥰本次实验的详细操作手册为放置在[LabManual目录](https://github.com/charlielv926/Biz-App-TechSolution/tree/main/PP%26D365%20CE%20Solution%20Deployment%20with%20Azure%20DevOps/LabManual)中PDF文件,可以下载至本地进行查阅。
+🥰本次实验的详细操作手册为放置在[LabManual目录](https://github.com/charlielv926/Biz-App-TechSolution/tree/main/Build%20IT%20HelpDesk%20with%20BizApp%20Platform/LabManual)中PDF文件,可以下载至本地进行查阅。
+
+## 部署完成
+
+部署完成后，整体业务演示场景如下方的视频所示：
+
+[![](./Images/Solution%20Pipeline.png)](./Images/Test-ITHelpdesk-Bot.mp4)
