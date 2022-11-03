@@ -59,4 +59,4 @@
 
 ## 大功告成，Cheers😃😃😃
 
-  ![大功告成，Cheers!](./Images/Cheers.gif)
+  ![大功告成，Cheers!](./Images/Cheers_icon.gif)
