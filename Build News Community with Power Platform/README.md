@@ -39,6 +39,7 @@ Contoso是一家总部位于美国的新能源车企，截止今年已经在中�
 ## 实验涵盖内容申明
 
 需要准备如下License（**Global&21V**）：
+
 - Power Apps per user/per app
 - Power Automate per user
 - Power Automate with attended RPA
@@ -46,15 +47,13 @@ Contoso是一家总部位于美国的新能源车企，截止今年已经在中�
 
 ## 开始部署
 
-**🥰本次实验的详细操作手册为放置在[LabManual目录](https://github.com/charlielv926/Biz-App-TechSolution/tree/main/Build%20IT%20HelpDesk%20with%20BizApp%20Platform/LabManual)中PDF文件,可以下载至本地进行查阅。**
+**🥰本次实验的详细操作手册为放置在[LabManual目录](https://github.com/charlielv926/Biz-App-TechSolution/tree/main/Build%20News%20Community%20with%20Power%20Platform/LabManual)中PDF文件,可以下载至本地进行查阅。**
 
-本次演示的主要流程场景如下：
-![OCS](./Images/OCS.png)
+本次演示的主要流程业务架构如下：
+![News Architecture](./Images/../LabManual/news_community.png)
 
 ## 部署完成
 
 部署完成后，整体业务演示场景如下方的视频所示：
 
-- [基于网页端的PVA聊天测试](https://blobstoragecharlie.blob.core.chinacloudapi.cn/image/Test-ITHelpdesk-Bot.mp4)
-- [基于Teams+PVA+人工的聊天测试](https://blobstoragecharlie.blob.core.chinacloudapi.cn/image/Test-ITHelpDeskOCS.mp4)
-  
+- [新闻数据抓取及审批发布](https://blobstoragecharlie.blob.core.chinacloudapi.cn/image/Test-ITHelpdesk-Bot.mp4)
