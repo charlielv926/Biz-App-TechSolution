@@ -54,6 +54,6 @@ Contoso是一家总部位于美国的新能源车企，截止今年已经在中�
 
 ## 部署完成
 
-部署完成后，整体业务演示场景如下方的视频所示：
+部署完成后，整体业务场景如下方的视频所示：
 
-- [新闻数据抓取及审批发布](https://blobstoragecharlie.blob.core.chinacloudapi.cn/image/new)
+- [新闻数据抓取及发布](https://blobstoragecharlie.blob.core.chinacloudapi.cn/image/news.mp4)
