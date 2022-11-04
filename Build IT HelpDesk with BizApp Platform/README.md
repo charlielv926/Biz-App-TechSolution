@@ -19,6 +19,7 @@
 - 申请Office E3/E5 试用
 - 申请Power Virtual Agent 试用
 - 下载并安装Bot Framework Composer
+
 **✨以上申请内容，请参考实验手册中的指示**
 
 ## 开始部署
