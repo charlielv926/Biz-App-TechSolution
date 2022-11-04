@@ -50,7 +50,7 @@ Contoso是一家总部位于美国的新能源车企，截止今年已经在中�
 **🥰本次实验的详细操作手册为放置在[LabManual目录](https://github.com/charlielv926/Biz-App-TechSolution/tree/main/Build%20News%20Community%20with%20Power%20Platform/LabManual)中PDF文件,可以下载至本地进行查阅。**
 
 本次演示的主要流程业务架构如下：
-![News Architecture](./Images/../LabManual/news_community.png)
+![News Architecture](./Images/news_community.png)
 
 ## 部署完成
 
