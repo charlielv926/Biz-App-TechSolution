@@ -15,8 +15,7 @@
 ![new_solution](./Images/add_new_solution.png)
 
 **3.修改环境变量默认值**
-
-修改环境变量的default值，修改内容如下
+修改环境变量的default值，修改内容如下：
 | 变量名称        | 修改说明   |
 | --------   | :-----  |
 | SAP Application Server     | 您部署的SAP应用服务器地址   |
@@ -27,7 +26,6 @@
 ![modify_variable](./Images/modify_variable.png)
 
 **3.修复流程，并全部开启**
-
 初始状态，进入每个流程的编辑页面，你会发现每个SAP ERP的Action都有错误提示，如下：
 ![flow_error](./Images/flow_error.png)
 
@@ -46,6 +44,39 @@
 ![turn_on_flow](./Images/turn_on_flow.png)
 
 图示未开启的流程需要Office365 License，非必须开启。
+
+**3.导入相关业务主数据**
+  3.1 按照文档下载数据导入工具，参考[环境间迁移数据](https://learn.microsoft.com/en-us/dynamics365/marketing/transfer-data)
+  3.2 下载数据包，请前往[文档路径configdata.zip](https://github.com/charlielv926/Biz-App-TechSolution/blob/main/SAP%20Integration%20Deployment/Asset/configdata.zip)
+  3.3 借助工具（CRM Configuration Migration）导入数据包。
+
+  ![import_data1](./Images/import_data1.png)
+
+  ![import_data2](./Images/import_data2.png)
+
+  3.4 提示导入成功后，请前往solution中检查配置数据情况。
+  >MenuItem
+  >MenuGroup
+  >DropDownValues
+
+  ![import_data3](./Images/import_data3.png)
+
+  3.5 修改App菜单配置数据。在App列表中，分别找到【Purchase Orders】和【Sales Orders】应用所对应的URL，如下图所示：
+  ![import_data4](./Images/import_data4.png)
+
+  3.6 找到MenuItems表，并分别替换两个App菜单的URL,如下图所示：
+  ![import_data5](./Images/import_data5.png)
+
+**4.修复Canvas App中的连接**
+  4.1 进入Canvas的编辑页面。以【Purchase Orders】为例，在左侧栏Power Automate选项卡中，可以发现连接状态都处于 ___未连接___ 状态
+  ![fix_canvas1](./Images/fix_canvas1.png)
+
+  4.2 逐一将连接进行"删除"和"再添加"的操作。直至所有的连接状态正常，如下图所示：
+  ![fix_canvas2](./Images/fix_canvas2.png)
+
+  4.3点击右上角进行保存和发布操作。确保两个Canvas App的连接状态都正常。
+
+
 ## 联系人信息
 
 任何问题，请联系：Charlielv0926@163.com
