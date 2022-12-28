@@ -11,7 +11,6 @@
 
 在有些业务场景中，我们会通过Graph API, Power Shell等方式去实现流程中的部分节点自动化。本篇文章主要会介绍如何基于Power Apps+Power Automate+Graph API实现用户的自动化导入流程。
 
-
 ## 前提准备
 
 1.准备可以创作PowerApps & PowerAutomate的环境（需要Dataverse）
@@ -26,7 +25,6 @@
 ## 部署解决方案
 
 **1.下载托管Solution并进行导入**
-
 在[Asset目录](./Asset)中，下载托管解决方案并导入到你准备的环境中。导入过程新建所需的connection,并完成导入操作
 
 ![importsolution1](./Images/pic-1.png)
@@ -36,7 +34,6 @@
 ![importsolution2](./Images/pic-2.png)
 
 **2.代码资产的介绍**
-
 为了实现完整的用户Onboarding的流程，我们创建了众多的组件进行对应数据录入，流程流转的支持。详细的架构如下：
 
 ![solutionarc](./Images/pic-3.png)
@@ -66,6 +63,7 @@
   "audience":"https://microsoftgraph.chinacloudapi.cn"
 }
 ```
+
 注意此处如果是导入到Global的环境，Audience替换为:"https://graph.microsoft.com"
 
 ![modifyvariable](./Images/pic-4.png)
@@ -74,9 +72,7 @@
 
 ![modifyapp](./Images/pic-5.png)
 
-
 **4.开始使用应用**
-
 可以批量将D365/PP用户导入到系统中，维护用户的基本信息以及需要同步的机制
 ![importuser](./Images/pic-6.png)
 
