@@ -56,6 +56,15 @@
   进入ReadCustomerList，按照下图将客户端代码进行修改
   ![fix_flow1](./Images/fix_flow1.png)
 
+  进入ReadVendorList，按照下图将客户端代码进行修改
+  ![fix_flow2](./Images/fix_flow2.png)
+
+   进入ReadPurchaseOrder，将下图所指向的变量替换为 if(equals(outputs('PO_Detail')['body/POHEADER']['STATUS'], 'B'), '', 'X')
+  ![fix_flow3](./Images/fix_flow3.png)
+
+  进入ReadPurchaseOrderList，按照下图将客户端代码进行修改
+  ![fix_flow4](./Images/fix_flow4.png)
+
 **4.导入相关业务主数据**
 
   _4.1 按照文档下载数据导入工具，参考[环境间迁移数据](https://learn.microsoft.com/en-us/dynamics365/marketing/transfer-data)_
