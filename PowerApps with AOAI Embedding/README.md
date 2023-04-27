@@ -3,7 +3,9 @@
 ## 前提准备
 
 1.准备可以创作PowerApps & PowerAutomate的环境（需要Dataverse）
+
 2.准备Azure Function
+
 3.准备Azure OpenAI （实验中使用了text-davinci-003,text-embedding-ada-002,text-search-curie-query-001）
 
 ## 实现方案
